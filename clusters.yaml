@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: hasura
+  data: null
+  kubeContext: analogically97
+  name: analogically97
