@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}{% endblock %}
+{% block head %}
+	{{ super() }}
+	<script type="text/javascript" src="{{ url_for('static', filename='js/login.js') }}"></script>
+  <link href= "{{ url_for('static', filename='css/login.css') }}" rel="stylesheet" />
+{% endblock %}
+{% block content %}
+
+
+<div class="login">
+  <form align-content = "center">
+    Username : <input type="text" id="username"/><br/>
+    Password : <input type="password" id="pswd"/>
+    <br/>
+	  <button class="button" id="signin" style="vertical-align:middle"><span>Sign in </span></button>
+	  <button class="button" id="signup" style="vertical-align:middle"><span>Sign up </span></button>
+</div>
+
+{% endblock %}
