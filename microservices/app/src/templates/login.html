@@ -2,14 +2,14 @@
 {% block title %}{% endblock %}
 {% block head %}
 	{{ super() }}
-	<script type="text/javascript" src="{{ url_for('static', filename='js/login.js') }}"></script>
+	<!--<script type="text/javascript" src="{{ url_for('static', filename='js/login.js') }}"></script>-->
   <link href= "{{ url_for('static', filename='css/login.css') }}" rel="stylesheet" />
 {% endblock %}
 {% block content %}
 
 
 <div class="login">
-  <form align-content = "center" method="POST">
+  <form id="myForm" align-content="center" method="POST">
     Username : <input type="text" id="username"/><br/>
     Password : <input type="password" id="pswd"/>
     <br/><br/>
