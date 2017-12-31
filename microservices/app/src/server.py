@@ -12,7 +12,7 @@ def home():
 def login():
     return render_template('login.html')
 
-@views.route('/signup', methods=['POST'])
+@app.route('/signup', methods=['POST'])
 def signup():
     #API URL
     url = request.url_root + url_for('api.signup')[1:]
