@@ -1,5 +1,7 @@
 flask
 requests
 gunicorn
+api
+json
 
 # add new packages one per each line
