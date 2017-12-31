@@ -3,7 +3,7 @@ import json
 from api import api
 
 @api.route('/signup', methods=['POST'])
-def signin():
+def signup():
     # This is the url to which the query is made
     url = "https://auth.analogically97.hasura-app.io/v1/signup"
 
