@@ -1,6 +1,5 @@
 from src import app
 from flask import render_template
-from api import *
 # from flask import jsonify
 
 
