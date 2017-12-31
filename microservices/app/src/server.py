@@ -14,10 +14,27 @@ def login():
 
 @app.route('/signup', methods=['POST'])
 def signup():
-    #API URL
-    url = request.url_root + url_for('api.signup')[1:]
-# Uncomment to add a new URL at /new
+    url = "https://auth.analogically97.hasura-app.io/v1/signup"
 
-# @app.route("/json")
-# def json_message():
-#     return jsonify(message="Hello World")
+    username = request.form['username']
+    password = request.form['pswd']
+
+    # This is the json payload for the query
+    requestPayload = {
+        "provider": "username",
+        "data": {
+            "username": "anuja",
+            "password": "anuja123"
+        }
+    }
+
+    # Setting headers
+    headers = {
+        "Content-Type": "application/json"
+    }
+
+    # Make the query and store response in resp
+    resp = requests.request("POST", url, data=json.dumps(requestPayload), headers=headers)
+
+    # resp.content contains the json response.
+    print resp.content
