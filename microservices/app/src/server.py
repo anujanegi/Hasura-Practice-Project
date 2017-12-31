@@ -15,20 +15,7 @@ def login():
 @views.route('/signup', methods=['POST'])
 def signup():
     #API URL
-    url = request.url_root + url_for('api.login')[1:]
-    try:
-        data = json.loads(json.dumps(request.form))
-        r = requests.post(url, json = data)
-        res = r.json()
-        if res["code"] == 200:
-            #Set session for this blueprint
-            session["user-token"] = res["args"]
-            return redirect('/')
-        else:
-            return redirect('/')
-    except Exception as e:
-        return str(e)
-
+    url = request.url_root + url_for('api.signup')[1:]
 # Uncomment to add a new URL at /new
 
 # @app.route("/json")
