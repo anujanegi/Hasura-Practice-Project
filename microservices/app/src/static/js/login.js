@@ -7,6 +7,6 @@ window.onload = function () {
   }
 
   sign_up.onclick = function () {
-   form.action = "/signup
+   form.action = "/signup"
  }
 }
