@@ -21,8 +21,8 @@ def signup():
     requestPayload = {
         "provider": "username",
         "data": {
-            "username": "johnsmith",
-            "password": "js@hasura"
+            "username": "test",
+            "password": "test123"
         }
     }
 
@@ -36,4 +36,4 @@ def signup():
 
     # resp.content contains the json response.
     print resp.content
-    return resp.content
+    return "done"
