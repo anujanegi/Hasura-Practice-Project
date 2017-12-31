@@ -3,7 +3,7 @@ window.onload = function () {
   sign_up = document.getElementById('signup');
   form = document.getElementById('myForm');
   sign_in.onclick = function () {
-    form.action = "signin"
+    form.action = "/signin"
   }
 
   sign_up.onclick = function () {
