@@ -1,4 +1,3 @@
-import require.js
 window.onload = function () {
   sign_in = document.getElementById('signin');
   sign_up = document.getElementById('signup');
