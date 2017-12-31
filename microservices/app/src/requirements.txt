@@ -1,6 +1,5 @@
 flask
 requests
 gunicorn
-requests
 
 # add new packages one per each line

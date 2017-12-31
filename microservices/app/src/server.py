@@ -1,6 +1,7 @@
 from src import app
-from flask import render_template, json, requests
-from flask import jsonify
+from flask import render_template
+import requests
+import json
 
 
 @app.route("/")
