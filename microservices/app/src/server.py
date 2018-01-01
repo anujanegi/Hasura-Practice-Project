@@ -14,6 +14,5 @@ def login():
 
 @app.route("/signup", methods=['POST'])
 def signup():
-    #username = request.form['username']
-    #print username
-    return "done"
+    username = request.form['username']
+    return username
