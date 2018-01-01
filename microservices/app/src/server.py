@@ -55,8 +55,8 @@ def signin():
     requestPayload = {
         "provider": "username",
         "data": {
-            "username": "nsmith",
-            "password": "js@hasura"
+            "username": username,
+            "password": pswd
         }
     }
 
