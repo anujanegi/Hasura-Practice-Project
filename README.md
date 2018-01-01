@@ -1,6 +1,7 @@
-# hello-python-flask
+# Hasura-Practice-Project
 
-Boilerplate Hasura project with [Flask](http://flask.pocoo.org/) microservice.
+Used Hasura's Boilerplate project with [Flask](http://flask.pocoo.org/) microservice.
+Boilerplate and its usage details as follows:
 
 ## Prerequisites
 
