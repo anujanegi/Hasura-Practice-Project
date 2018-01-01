@@ -1,5 +1,5 @@
 from src import app
-from flask import render_template
+from flask import render_template, request
 import requests
 import json
 
