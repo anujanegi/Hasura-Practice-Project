@@ -23,8 +23,8 @@ def signup():
     requestPayload = {
         "provider": "username",
         "data": {
-            "username": "johnsmith",
-            "password": "js@hasura"
+            "username": username,
+            "password": pswd
         }
     }
 
