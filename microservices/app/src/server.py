@@ -38,4 +38,4 @@ def signup():
 
     # resp.content contains the json response.
     print(resp.content)
-    return "done"
+    return (resp.content)
