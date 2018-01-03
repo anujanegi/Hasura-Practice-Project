@@ -1,6 +1,8 @@
-# hello-python-flask
+# Whiterose
 
-Boilerplate Hasura project with [Flask](http://flask.pocoo.org/) microservice.
+Practice project repo to get accustomed to the Hasura CLI and its APIs. 
+Used Hasura's Boilerplate project with [Flask](http://flask.pocoo.org/) microservice.
+Boilerplate and its usage details as follows:
 
 ## Prerequisites
 
