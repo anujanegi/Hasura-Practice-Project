@@ -1,7 +1,7 @@
 - alias: hasura
   config:
     configmap: controller-conf
-    namespace: hasura
+    namespace: carcass89-hasura
   data: null
-  kubeContext: analogically97
-  name: analogically97
+  kubeContext: carcass89
+  name: carcass89
