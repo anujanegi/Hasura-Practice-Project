@@ -1,6 +1,6 @@
 # Whiterose
 
-Practice project repo to get accustomed to Hasura CLI and its APIs. 
+Practice project repo to get accustomed to the Hasura CLI and its APIs. 
 Used Hasura's Boilerplate project with [Flask](http://flask.pocoo.org/) microservice.
 Boilerplate and its usage details as follows:
 
